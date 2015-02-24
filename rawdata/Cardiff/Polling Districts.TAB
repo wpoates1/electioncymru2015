@@ -1,0 +1,19 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 5
+    District Char (5) Index 1 ;
+    PollingStn Char (200) ;
+    PysicalDistrict Char (5) Index 2 ;
+    URL Char (254) ;
+    URL1 Char (254) ;
+begin_metadata
+"\Comment" = ""
+"\Associated txt File" = ""
+"\URL" = "http://web1/gis/CMaps/view_overlay.asp?id=1233"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "985a7e40-c165-4b6c-adf1-9c551ba4f822"
+end_metadata

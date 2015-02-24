@@ -1,0 +1,18 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 6
+    Reference Char (5) Index 1 ;
+    District Char (8) Index 2 ;
+    PollingStation Char (150) ;
+    PhysicalDistrict Char (5) Index 3 ;
+    ID Char (8) ;
+    uprn Char (25) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "7a72df17-6520-42c6-b601-856be07ff329"
+end_metadata
